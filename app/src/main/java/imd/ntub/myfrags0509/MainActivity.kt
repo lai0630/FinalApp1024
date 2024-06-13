@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 when(position){
                     0 -> firstFragment
                     1 -> SecondFragment.newInstance()
-                    2 -> ThirdFragment.newInstance(" 李益誠" +
+                    2 -> ThirdFragment.newInstance("11056010 李益誠" +
                             "11056024 賴顗翔")
                     else -> firstFragment
                 }
