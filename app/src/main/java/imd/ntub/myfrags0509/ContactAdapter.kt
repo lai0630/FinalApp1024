@@ -48,7 +48,7 @@ class ContactAdapter(
 
         holder.imgTrash.setOnClickListener {
             AlertDialog.Builder(context).apply {
-                setTitle("我們還是朋友 對吧?")
+                setTitle("刪除")
                 setMessage("確定要刪除嗎")
                 setPositiveButton("刪除") { _, _ ->
                     contactDatabaseManager.deleteContact(contact.id)
