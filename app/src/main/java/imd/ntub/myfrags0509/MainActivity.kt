@@ -9,6 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 
+
+
+/*
+組員名單:
+11056010 李益誠
+11056024 賴顗翔
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager2
     private lateinit var firstFragment: FirstFragment
