@@ -25,7 +25,7 @@
             android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="主頁"
+            android:text="通訊錄"
             android:textColor="#FFFFFF"
             android:textColorLink="#FFFFFF"
             android:textSize="20sp"
@@ -35,14 +35,14 @@
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="新增"
+            android:text="新增聯絡人"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="組別"
+            android:text="組員名單"
             android:textSize="20sp" />
 
     </LinearLayout>
